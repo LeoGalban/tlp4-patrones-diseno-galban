@@ -1,0 +1,19 @@
+{
+  "name": "tlp4-patrones-diseno-galban",
+  "version": "1.0.0",
+  "description": "Sistema de Inventario de Equipos Informáticos - Patrones de diseño en TypeScript",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "ej1": "node ej1-singleton.ts",
+    "ej2": "node ej2-factory.ts",
+    "ej3": "node ej3-observer.ts",
+    "ej4": "node ej4-adapter.ts",
+    "check": "tsc --noEmit"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
